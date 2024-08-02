@@ -11,4 +11,4 @@ servidor.get('/calculadora/somar', (req, resp) => {
     resp.send(`O resultado da soma é ${soma}`)
 })
 
-servidor.listen(5001, () => console.log('API subiu na porta 5001'))
+servidor.listen(5001, () => console.log('API subiu na porta'))

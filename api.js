@@ -1,6 +1,4 @@
 import express from 'express';
-
-
 const servidor = express()
 
 servidor.get('/calculadora/somar', (req, resp) => {
